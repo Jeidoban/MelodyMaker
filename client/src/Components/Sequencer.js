@@ -22,6 +22,21 @@ class Sequencer extends Component {
                             <div className="sequencerButton"></div>
                             <div className="sequencerButton"></div>
                         </div>
+                        <div className="row rowMargin">
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                            <div className="sequencerButton"></div>
+                        </div>
                     </div>
                 </div>
             </div>
