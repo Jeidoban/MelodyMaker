@@ -1,0 +1,20 @@
+.topPadding {
+    margin-top: 2%; 
+}
+
+.sequencerButton {
+    width: 30px;
+    height: 30px;
+    background-color: #3AAED8;
+    border: #388659 solid 2px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.sequencerButton:hover {
+    background-color: #339ABF;
+}
+
+.rowMargin {
+    margin-top: 5px;
+}
