@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Sequencer.css';
-import ApplicationData from "../Models/ApplicationData";
+import ApplicationData from "../../../Models/ApplicationData";
 
 class Sequencer extends Component {
     constructor() {
