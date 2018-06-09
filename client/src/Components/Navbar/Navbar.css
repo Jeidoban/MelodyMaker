@@ -1,0 +1,33 @@
+.navText {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.bar {
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.sideMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    border: 1px black solid;
+    border-radius: 5px;
+    z-index: 1;
+    top: 0;
+    right: -2px;
+    background-color: white;
+    overflow-x: hidden;
+    transition: width 0.5s;
+    padding-top: 60px;
+}
+
+.closeButton {
+    position: relative;
+    color: black;
+    background-color: transparent;
+    left: 150px;
+    top: -50px;
+}

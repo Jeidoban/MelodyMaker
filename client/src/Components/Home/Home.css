@@ -1,0 +1,15 @@
+.backPhoto {
+    background-color: #5ab1bb;
+    height: 300px;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+#beutText {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10vh;
+    font-size: 3em;
+}
