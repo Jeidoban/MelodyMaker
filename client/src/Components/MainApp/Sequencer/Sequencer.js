@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './Sequencer.css';
-import ApplicationData from "../../../Models/ApplicationData";
+// import ApplicationData from "../../../Models/ApplicationData";
 
 class Sequencer extends Component {
-    constructor() {
-        super();
-        // this.state = { isTrue: false };
-        // this.createSequencer = this.createSequencer.bind(this);
-    }
+    // constructor() {
+    //     super();
+    //     // this.state = { isTrue: false };
+    //     // this.createSequencer = this.createSequencer.bind(this);
+    // }
 
     // createSequencer() {
     //     this.setState(state => ({

@@ -1,24 +1,33 @@
-.navText {
+.navbar {
+    background-color: #C8C2AE;
+}
+
+.navbar a {
     font-family: "Open Sans Condensed", sans-serif;
+    color: #68655A !important;
 }
 
 .bar {
     width: 30px;
     height: 2px;
-    background-color: black;
+    background-color: #68655A;
     margin: 5px 0;
+}
+
+.barButton {
+    background-color: #C8C2AE;
 }
 
 .sideMenu {
     height: 100%;
     width: 0;
     position: fixed;
-    border: 1px black solid;
+    border: 2px solid #1FA8C4;
     border-radius: 5px;
     z-index: 1;
     top: 0;
     right: -2px;
-    background-color: white;
+    background-color: #0EB1D2;
     overflow-x: hidden;
     transition: width 0.5s;
     padding-top: 60px;
@@ -26,8 +35,43 @@
 
 .closeButton {
     position: relative;
-    color: black;
+    color: white;
     background-color: transparent;
+    border-width: 0;
+    transition: color 0.25s;
     left: 150px;
     top: -50px;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    color: #EFEFEF;
+}
+
+.sideText {
+    color: white !important;
+    transition: color 0.25s;
+    cursor: pointer;
+}
+
+.sideText:hover {
+    color: #EFEFEF !important;
+}
+
+.logInButton {
+    background-color: #C8C2AE;
+    color: #68655A;
+    border: 2px solid #68655A;
+    transition: all 0.5s;
+}
+
+.logInButton:hover {
+    background-color: #68655A;
+    color: #C8C2AE;
+}
+
+.modal-content a {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -10px;
 }

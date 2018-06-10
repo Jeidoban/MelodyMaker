@@ -24,9 +24,9 @@ class NavbarMobile extends Component {
         return (
             <div>
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a className="navbar-brand" href="#">MelodyMaker</a>
+                    <a className="navbar-brand">MelodyMaker</a>
                     <ul className="navbar-nav ml-auto">
-                        <button className="btn btn-default" onClick={this.handleHamburgerClicked}>
+                        <button className="btn btn-default barButton" onClick={this.handleHamburgerClicked}>
                             <div className="bar"></div>
                             <div className="bar"></div>
                             <div className="bar"></div>
